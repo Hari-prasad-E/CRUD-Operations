@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.delete-the-selected-data-button{
+    position: relative;
+    float: right;
+}
+.backpage {
+    width: 100%;
+    height: 737px;
+    background-image: linear-gradient(to bottom right, #71B5E4, #9B5AB6);
+}
+.cen {
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+label {
+    display: inline;
+}
+button {
+    width: 95%;
+    height: 35px;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    text-transform: uppercase;
+    background-image: linear-gradient(to top left, #9B5AB6,#71B5E4);
+}
+.final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+}
+.final-button {
+    width: 90%;
+    margin: 25px;
+}
+.note {
+    color: red;
+    font-size: 12px;
+}
