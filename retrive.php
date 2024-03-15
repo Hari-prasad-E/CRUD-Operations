@@ -27,7 +27,7 @@
         <div>
             <a href="registrationpage.php" style="width: 20%;"><button>Add a new user</button></a>
 
-            <form method="post" action="checkbox.php">
+            <form method="post" action="multipledelete.php">
                 <button style="position:relative; top: -20px; left:-960px;" onclick="confirmDelete()" type="submit" class="delete-the-selected-data-button" value="submit">delete the selected data</button>
 
                 <?php
